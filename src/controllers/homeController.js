@@ -1,5 +1,5 @@
 /**
- * Created by trungquandev.com's author on 18/02/2020.
+ * Created by nandhav.com's author on 18/02/2020.
  * homeController.js
  */
 const path = require('path')

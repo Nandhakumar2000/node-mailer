@@ -1,7 +1,7 @@
 {
   "name": "nodejs-send-emails",
   "version": "1.0.0",
-  "description": "Nodejs send email with nodemailer - https://trungquandev.com",
+  "description": "Nodejs send email with nodemailer - https://nandhav.com",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

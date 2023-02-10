@@ -1,5 +1,5 @@
 /**
- * Created by trungquandev.com's author on 18/02/2020.
+ * Created by nandhav.com's author on 18/02/2020.
  * server.js
  */
 const express = require('express')
@@ -15,5 +15,5 @@ initRoutes(app)
 // chọn một port mà bạn muốn và sử dụng để chạy ứng dụng tại local
 const port = 8017
 app.listen(port, () => {
-  console.log(`Hello trungquandev.com, I'm running at localhost:${port}/`)
+  console.log(`Hello nandhav.com, I'm running at localhost:${port}/`)
 })

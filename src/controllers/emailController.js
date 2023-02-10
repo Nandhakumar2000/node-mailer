@@ -1,5 +1,5 @@
 /**
- * Created by trungquandev.com's author on 18/02/2020.
+ * Created by nandhav.com's author on 18/02/2020.
  * emailController.js
  */
 const mailer = require('../utils/mailer')
@@ -7,8 +7,12 @@ const mailer = require('../utils/mailer')
 let sendMail = async (req, res) => {
   try {
     // Lấy data truyền lên từ form phía client
-    const { to, subject, body } = req.body
+    // const { to, subject, body } = req.body
+     const to = "tas.researchanddevelopers@gmail.com";
+    // const to = "nandhuv2000@gmail.com";
 
+    const subject = "Test EMail";
+    const body ="Email from api";
     // Thực hiện gửi email
     await mailer.sendMail(to, subject, body)
 

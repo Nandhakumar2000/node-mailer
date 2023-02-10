@@ -17,13 +17,13 @@ $ node src/server.js
 
 ### Guide for this repository is here:
 
-https://trungquandev.com/gui-nhan-email-trong-nodejs-cuc-ky-don-gian-voi-nodemailer/
+https://nandhav.com/gui-nhan-email-trong-nodejs-cuc-ky-don-gian-voi-nodemailer/
 
 Author: Trung Quân
 
-Blog: https://trungquandev.com/
+Blog: https://nandhav.com/
 
-CV: https://cv.trungquandev.com/
+CV: https://cv.nandhav.com/
 
 "A little bit of fragrance always clings to the hands that gives you roses!"
 

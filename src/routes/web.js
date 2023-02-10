@@ -1,5 +1,5 @@
 /**
- * Created by trungquandev.com's author on 18/02/2020.
+ * Created by nandhav.com's author on 18/02/2020.
  * routes/web.js
  */
 const express = require('express')
@@ -13,6 +13,7 @@ let initRoutes = (app) => {
   
   // Gọi hành động gửi email
   router.post('/send-email', emailController.sendMail)
+  router.get('/send-email-node', emailController.sendMail)
 
   return app.use('/', router)
 };
