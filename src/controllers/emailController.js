@@ -1,7 +1,4 @@
-/**
- * Created by nandhav.com's author on 18/02/2020.
- * emailController.js
- */
+
 const mailer = require('../utils/mailer')
 
 let sendMail = async (req, res) => {
