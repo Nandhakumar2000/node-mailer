@@ -6,20 +6,14 @@ const mailer = require('../utils/mailer')
 
 let sendMail = async (req, res) => {
   try {
-    // Lấy data truyền lên từ form phía client
-    // const { to, subject, body } = req.body
-     const to = "tas.researchanddevelopers@gmail.com";
-    // const to = "nandhuv2000@gmail.com";
-
-    const subject = "Test EMail";
-    const body ="Email from api";
-    // Thực hiện gửi email
+     const to = req.query.email;
+     console.log("query",req.query);
+    const subject = req.query.title;
+    const body =req.query.subject;
     await mailer.sendMail(to, subject, body)
 
-    // Quá trình gửi email thành công thì gửi về thông báo success cho người dùng
     res.send('<h3>Your email has been sent successfully.</h3>')
   } catch (error) {
-    // Nếu có lỗi thì log ra để kiểm tra và cũng gửi về client
     console.log(error)
     res.send(error)
   }
